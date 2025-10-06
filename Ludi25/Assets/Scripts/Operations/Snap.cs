@@ -2,15 +2,14 @@ using UnityEngine;
 
 public class Snap : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public BodyType.TypeBody BodySnap;
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Debug.Log("Algo");
+        if(collision.GetComponent<BodyType>().BodyPart == BodySnap)
+        {
+            Debug.Log("funciona");
+            collision.transform.position = transform.position;
+        }
     }
 }
