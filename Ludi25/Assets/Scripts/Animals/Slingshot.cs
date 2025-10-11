@@ -97,7 +97,7 @@ public class Slingshot : MonoBehaviour
 
         projectile = null;
         projectileCollider = null;
-        Invoke("CreateProjectile", 2);
+        Invoke("CreateProjectile", 0.5f); //Create a new Projectile and set the timer for between projectiles
     }
 
     void ResetStrips()
