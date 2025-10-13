@@ -20,6 +20,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: a8652414e3e54c741bf8ebccfba8dfc6
+  - enabled: 1
+    path: Assets/Scenes/nivells_english.unity
+    guid: 5db97c4e199daa34a87e67cd55274efd
+  - enabled: 1
+    path: Assets/Scenes/nivells_mates.unity
+    guid: 0d8930cbc3cf471459f3a857c1ee27d8
+  - enabled: 1
+    path: Assets/Scenes/nivells_medi.unity
+    guid: 3301021a0d724e649a27dc0226574687
+  - enabled: 1
+    path: Assets/Scenes/Opciones.unity
+    guid: 012e9a7f95bf75d4a996abca2a8f99d4
+  - enabled: 1
+    path: Assets/Scenes/Ropa.unity
+    guid: 8e5f835d22fbd2c4598dad3b06293e95
+  - enabled: 1
+    path: Assets/Scenes/Calendario.unity
+    guid: e8a107eee969e6642aebadf6378fe019
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
