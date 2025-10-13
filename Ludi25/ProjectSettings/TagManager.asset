@@ -5,9 +5,13 @@ TagManager:
   serializedVersion: 3
   tags:
   - Dragable
+<<<<<<< HEAD
   - Projectile
   - Animal
   - Goal
+=======
+  - Ball
+>>>>>>> SergioBranch
   layers:
   - Default
   - TransparentFX
