@@ -1573,6 +1573,7 @@ GameObject:
   - component: {fileID: 2034099684}
   - component: {fileID: 2034099683}
   - component: {fileID: 2034099682}
+  - component: {fileID: 2034099685}
   m_Layer: 5
   m_Name: Back
   m_TagString: Untagged
@@ -1643,7 +1644,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2034099683}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2034099685}
+        m_TargetAssemblyTypeName: SceneHandler, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2034099683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1682,6 +1695,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2034099680}
   m_CullTransparentMesh: 1
+--- !u!114 &2034099685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034099680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be27e3bf40a5b248abc92f5b6fcc0c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToChange: 
+  scenePath: Assets/Scenes/nivells_medi.unity
 --- !u!1 &2039550932
 GameObject:
   m_ObjectHideFlags: 0
