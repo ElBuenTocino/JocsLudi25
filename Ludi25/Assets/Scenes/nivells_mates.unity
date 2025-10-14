@@ -778,7 +778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToChange: 
-  scenePath: Assets/Scenes/ParInpar.unity
+  scenePath: Assets/Scenes/TutorailNumeros.unity
 --- !u!114 &1134809096
 MonoBehaviour:
   m_ObjectHideFlags: 0

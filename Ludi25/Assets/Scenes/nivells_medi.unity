@@ -828,7 +828,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToChange: 
-  scenePath: Assets/Scenes/Animals.unity
+  scenePath: Assets/Scenes/TutorailAnimals.unity
 --- !u!114 &363939241
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1682,7 +1682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToChange: 
-  scenePath: Assets/Scenes/ParaulesTema (Pau).unity
+  scenePath: Assets/Scenes/TutorailParaules.unity
 --- !u!114 &2132802840
 MonoBehaviour:
   m_ObjectHideFlags: 0
