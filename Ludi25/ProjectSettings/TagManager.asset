@@ -3,20 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags:
-  - Dragable
-<<<<<<< HEAD
-  - Ball
-=======
-  - Projectile
-  - Animal
-  - Goal
->>>>>>> origin/PauBranch
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - dragable
+  - 
   - Water
   - UI
   - 
