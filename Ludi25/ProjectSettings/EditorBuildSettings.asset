@@ -38,6 +38,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Calendario.unity
     guid: e8a107eee969e6642aebadf6378fe019
+  - enabled: 1
+    path: Assets/Scenes/TutorailAnimals.unity
+    guid: 88db855ad6170584bb0968337374dea0
+  - enabled: 1
+    path: Assets/Scenes/TutorailNumeros.unity
+    guid: 52e54d0fdcd018846852ff91ce75d83a
+  - enabled: 1
+    path: Assets/Scenes/TutorailParaules.unity
+    guid: f74cfc227aef70b418548b1c6eab388e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
