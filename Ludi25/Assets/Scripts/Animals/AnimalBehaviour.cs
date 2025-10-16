@@ -4,11 +4,12 @@ public class AnimalBehaviour : MonoBehaviour
 {
     public bool isHerbivore;
     public Sprite[] herbivoreSprites, carnivoreSprites;
-    public int speed;
+    public float speed;
     public AnimalManager manager;
 
     private void Start()
     {
+        speed = Random.Range(speed - 0.5f, speed + 0.5f);
         gameObject.tag = "Animal";
         int chance = Random.Range(0, 3);
         if (chance == 0)
@@ -30,26 +31,36 @@ public class AnimalBehaviour : MonoBehaviour
 
     void Movement()
     {
-        transform.position = new Vector2(transform.position.x, transform.position.y - speed * Time.deltaTime);
+        transform.position = new Vector2(transform.position.x + speed * Time.deltaTime, transform.position.y);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Projectile") //Get Shot
+        if (collision.gameObject.tag == "ProjectileH") //Get Shot by plant
         {
             if (isHerbivore)
             {
-                if (manager.score > 0)
-                {
-                    manager.score--;
-                }
-
-                Debug.Log("Hit a herbivore");
+                manager.score++;
+                Debug.Log("Correctly Hit a herbivore");
             }
             else //Carnivore
             {
                 //manager.score++;
-                Debug.Log("Hit a carnivore");
+                Debug.Log("Incorrectly Hit a carnivore");
+            }
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
+        if (collision.gameObject.tag == "ProjectileC") //Get Shot by meat
+        {
+            if (isHerbivore)
+            {
+                Debug.Log("Incorrectly Hit a herbivore");
+            }
+            else //Carnivore
+            {
+                manager.score++;
+                Debug.Log("Correctly Hit a carnivore");
             }
             Destroy(collision.gameObject);
             Destroy(gameObject);
@@ -57,17 +68,17 @@ public class AnimalBehaviour : MonoBehaviour
         if (collision.gameObject.tag == "Goal") //Get to goal
         {
             Debug.Log("Animal Touched goal");
-            if (isHerbivore)
-            {
-                manager.score++;
-            }
-            else //Carnivore
-            {
-                if (manager.score > 0)
-                {
-                    manager.score--;
-                }
-            }
+            //if (isHerbivore)
+            //{
+            //    manager.score++;
+            //}
+            //else //Carnivore
+            //{
+            //    if (manager.score > 0)
+            //    {
+            //        manager.score--;
+            //    }
+            //}
             Destroy(gameObject);
         }
     }

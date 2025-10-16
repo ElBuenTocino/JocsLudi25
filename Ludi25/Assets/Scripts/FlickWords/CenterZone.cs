@@ -7,6 +7,7 @@ public class CenterZone : MonoBehaviour
     public TextMeshProUGUI scoreText;
 
 
+
     private void Update()
     {
         scoreText.text = ($"PUNTS: {points}/{goal}");
@@ -20,7 +21,6 @@ public class CenterZone : MonoBehaviour
             if (obj.isFlickable)
             {
                 Debug.Log("Missed! Player should have flicked this.");
-                points--;
             }
             else
             {
@@ -39,7 +39,8 @@ public class CenterZone : MonoBehaviour
 
     void Win()
     {
-
+        GetComponent<SceneHandler>().ChangeScene();
+        Debug.Log("Won!");
     }
 }
 

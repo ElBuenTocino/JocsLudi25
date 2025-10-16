@@ -504,7 +504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textUI: {fileID: 1580577795}
-  objectiu: 6
+  objectiu: 10
   number: 0
 --- !u!114 &1735201787
 MonoBehaviour:
