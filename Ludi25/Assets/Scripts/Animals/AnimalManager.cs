@@ -4,14 +4,16 @@ using UnityEngine.Rendering;
 
 public class AnimalManager : MonoBehaviour
 {
-    public float timeToSpawn = 2f;
+    public float timeToSpawn;
     public GameObject animalPrefab;
-    public Transform minY, maxY, minX, maxX;
+    public Transform[] spawnPoints;
 
     public int score = 0, maxScore;
     public TextMeshProUGUI scoreText;
 
     private float timer = 0f;
+
+    public bool correct, gotToGoal;
 
     void Update()
     {
@@ -34,16 +36,30 @@ public class AnimalManager : MonoBehaviour
         if (timer >= timeToSpawn)
         {
             timer = 0f;
-            float y = Random.Range(minY.position.y, maxY.position.y);
-            float x = Random.Range(0, 2);
-            if (x == 1) { x = minX.position.x; }
-            else { x = maxX.position.x; }
-            GameObject newAnimal = Instantiate(animalPrefab, new Vector2(x, y), Quaternion.identity);
+            AdjustDifficulty();
+            GameObject newAnimal = Instantiate(animalPrefab, spawnPoints[Random.Range(0, spawnPoints.Length)].position, Quaternion.identity);
             newAnimal.GetComponent<AnimalBehaviour>().manager = this;
-            if (newAnimal.transform.position.x == maxX.position.x)
+            if (gotToGoal) // Ajustar velocitat amb dificultat
+            {
+                newAnimal.GetComponent<AnimalBehaviour>().speed -= 1f;
+            }
+            if (newAnimal.transform.position.x > 0)
             {
                 newAnimal.GetComponent<AnimalBehaviour>().speed *= -1;
             }
+            gotToGoal = false;
+        }
+    }
+
+    void AdjustDifficulty()
+    {
+        if (correct && timeToSpawn > 2)
+        {
+            timeToSpawn -= 0.5f;
+        }
+        if (!correct && timeToSpawn < 7)
+        {
+            timeToSpawn += 0.5f;
         }
     }
 

@@ -41,11 +41,13 @@ public class AnimalBehaviour : MonoBehaviour
             if (isHerbivore)
             {
                 manager.score++;
+                manager.correct = true;
                 Debug.Log("Correctly Hit a herbivore");
             }
             else //Carnivore
             {
                 //manager.score++;
+                manager.correct = false;
                 Debug.Log("Incorrectly Hit a carnivore");
             }
             Destroy(collision.gameObject);
@@ -55,11 +57,13 @@ public class AnimalBehaviour : MonoBehaviour
         {
             if (isHerbivore)
             {
+                manager.correct = false;
                 Debug.Log("Incorrectly Hit a herbivore");
             }
             else //Carnivore
             {
                 manager.score++;
+                manager.correct = true;
                 Debug.Log("Correctly Hit a carnivore");
             }
             Destroy(collision.gameObject);
@@ -79,6 +83,7 @@ public class AnimalBehaviour : MonoBehaviour
             //        manager.score--;
             //    }
             //}
+            manager.gotToGoal = true;
             Destroy(gameObject);
         }
     }

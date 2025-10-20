@@ -2411,7 +2411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8906eb39fee0c9547989471b5992ebd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToSpawn: 2
+  timeToSpawn: 5
   animalPrefab: {fileID: 8166655984046743193, guid: fbd3db348e2714341b0e0e924fe6a546, type: 3}
   minY: {fileID: 918714856}
   maxY: {fileID: 1881931941}
@@ -2420,6 +2420,8 @@ MonoBehaviour:
   score: 0
   maxScore: 10
   scoreText: {fileID: 595592731}
+  correct: 0
+  gotToGoal: 0
 --- !u!4 &2050231367
 Transform:
   m_ObjectHideFlags: 0
