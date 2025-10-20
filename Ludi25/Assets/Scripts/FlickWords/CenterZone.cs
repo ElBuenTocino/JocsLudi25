@@ -20,11 +20,13 @@ public class CenterZone : MonoBehaviour
         {
             if (obj.isFlickable)
             {
+                GetComponent<SpawnAndMoveToCenter>().correct = false;
                 Debug.Log("Missed! Player should have flicked this.");
             }
             else
             {
                 Debug.Log("Correct! Player left this alone.");
+                GetComponent<SpawnAndMoveToCenter>().correct = true;
                 points++;
                 if (points >= goal)
                 {

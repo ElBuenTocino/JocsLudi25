@@ -71,6 +71,7 @@ public class Flickable : MonoBehaviour
             {
                 // Correct flick
                 spawnAndMoveToCenter.correct = true;
+                spawnAndMoveToCenter.GetComponent<CenterZone>().points++;
                 Debug.Log("Correct Flick!");
             }
             else

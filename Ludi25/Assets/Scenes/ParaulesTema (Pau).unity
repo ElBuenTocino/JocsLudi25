@@ -155,36 +155,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPrefab: {fileID: 3953995225496669819, guid: 303e25b3077c10c4ab6571addc58e439, type: 3}
   spawnRadius: 10
-  spawnInterval: 1
+  spawnInterval: 5
   spawnOnEdge: 1
   correct: 0
   moveSpeed: 1
   possibleWords:
-  - word: Hot
+  - word: {fileID: 21300000, guid: 5f061001818a2174282f9c5852af3694, type: 3}
     isFlickable: 1
-  - word: Warm
+  - word: {fileID: 21300000, guid: 04cdfcc7c9f973541849ea4621fedd37, type: 3}
     isFlickable: 1
-  - word: Butterflies
+  - word: {fileID: 21300000, guid: dd2d0d3398240524bbffeb9abdcd144b, type: 3}
     isFlickable: 1
-  - word: Summer
+  - word: {fileID: 21300000, guid: 6e5a5eec6a4eaec40a1122bda8169c50, type: 3}
     isFlickable: 1
-  - word: July
+  - word: {fileID: 0}
     isFlickable: 1
-  - word: Halloween
-    isFlickable: 1
-  - word: Snow
+  - word: {fileID: 0}
     isFlickable: 0
-  - word: Snowman
+  - word: {fileID: 21300000, guid: ca2aa58b0eb6e4d4593b0385fa966204, type: 3}
     isFlickable: 0
-  - word: Cold
+  - word: {fileID: 21300000, guid: 20c3d4e971e0d0b479382407f92a4d51, type: 3}
     isFlickable: 0
-  - word: Ice
+  - word: {fileID: 21300000, guid: ffbcd493204ed4e458b0fe1c9f665d36, type: 3}
     isFlickable: 0
-  - word: Christmas
-    isFlickable: 0
-  - word: December
-    isFlickable: 0
-  - word: December
+  - word: {fileID: 21300000, guid: 2a042c8e8807ed14eafb0e7f8a6296a4, type: 3}
     isFlickable: 0
 --- !u!212 &218000892
 SpriteRenderer:
