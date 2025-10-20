@@ -11,6 +11,7 @@ public class Flickable : MonoBehaviour
     public float flickForceMultiplier = 100f;
     public float minFlickForce = 25f;
     public float spinMultiplier = 500f; // max angular velocity for spin
+    public SpawnAndMoveToCenter spawnAndMoveToCenter;
 
     private void Awake()
     {
@@ -69,11 +70,13 @@ public class Flickable : MonoBehaviour
             if (obj.isFlickable)
             {
                 // Correct flick
+                spawnAndMoveToCenter.correct = true;
                 Debug.Log("Correct Flick!");
             }
             else
             {
                 // Wrong flick, penalty
+                spawnAndMoveToCenter.correct = false;
                 Debug.Log("Incorrect Flick..");
             }
         }

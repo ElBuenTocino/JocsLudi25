@@ -154,22 +154,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectPrefab: {fileID: 3953995225496669819, guid: 303e25b3077c10c4ab6571addc58e439, type: 3}
-  spawnRadius: 6
+  spawnRadius: 10
   spawnInterval: 1
   spawnOnEdge: 1
+  correct: 0
   moveSpeed: 1
   possibleWords:
   - word: Hot
     isFlickable: 1
-  - word: Halloween
+  - word: Warm
     isFlickable: 1
   - word: Butterflies
     isFlickable: 1
+  - word: Summer
+    isFlickable: 1
+  - word: July
+    isFlickable: 1
+  - word: Halloween
+    isFlickable: 1
+  - word: Snow
+    isFlickable: 0
+  - word: Snowman
+    isFlickable: 0
   - word: Cold
+    isFlickable: 0
+  - word: Ice
     isFlickable: 0
   - word: Christmas
     isFlickable: 0
-  - word: Snow
+  - word: December
+    isFlickable: 0
+  - word: December
     isFlickable: 0
 --- !u!212 &218000892
 SpriteRenderer:
@@ -364,7 +379,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movableLayers:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   isMoveRestrictedToScreen: 1
 --- !u!4 &256957073
 Transform:
@@ -733,7 +748,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -275, y: 182}
+  m_AnchoredPosition: {x: -837, y: 497}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2063151333
@@ -783,8 +798,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

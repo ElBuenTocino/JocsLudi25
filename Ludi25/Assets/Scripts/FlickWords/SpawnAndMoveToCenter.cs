@@ -9,7 +9,7 @@ public class SpawnAndMoveToCenter : MonoBehaviour
     public GameObject objectPrefab;
     public float spawnRadius;
     public float spawnInterval;
-    public bool spawnOnEdge = true;
+    public bool spawnOnEdge = true, correct;
 
     [Header("Movement Settings")]
     public float moveSpeed;  // now public so it can be adjusted in inspector
@@ -28,7 +28,21 @@ public class SpawnAndMoveToCenter : MonoBehaviour
         while (true)
         {
             SpawnObject();
+            AdjustDifficulty();
             yield return new WaitForSeconds(spawnInterval);
+        }
+    }
+
+    void AdjustDifficulty()
+    {
+        if (correct && spawnInterval > 3)
+        {
+            spawnInterval -= 0.5f;
+        }
+
+        if (!correct && spawnInterval < 7)
+        {
+            spawnInterval += 0.5f;
         }
     }
 
@@ -41,6 +55,18 @@ public class SpawnAndMoveToCenter : MonoBehaviour
         Vector3 spawnPos = transform.position + new Vector3(Mathf.Cos(angle) * radius, Mathf.Sin(angle) * radius, 0);
 
         GameObject spawned = Instantiate(objectPrefab, spawnPos, Quaternion.identity);
+
+        spawned.GetComponent<Flickable>().spawnAndMoveToCenter = this;
+        float speed = spawned.GetComponent<MoveToCenter>().speed;
+
+        if (!correct && moveSpeed > 0.1)
+        {
+            moveSpeed -= 0.2f;
+        }
+        if (correct && moveSpeed < 1)
+        {
+            moveSpeed += 0.1f;
+        }
 
         // Pick a random word
         WordData wordData = possibleWords[Random.Range(0, possibleWords.Count)];
