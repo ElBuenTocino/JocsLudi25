@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 391e6188fe549784eae6b3aa4fbcecea
+guid: aaec85682a6206b468a6a81bdcf719af
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4325059052575670109
-    second: "boto\xF3n gris_0"
+      213: 1318197029881756924
+    second: Frame izquierda@4x_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "boto\xF3n gris_0"
+      name: Frame izquierda@4x_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 275
         y: 0
-        width: 267
-        height: 268
+        width: 2364
+        height: 3361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a0c3a2f4bd4af3c0800000000000000
-      internalID: -4325059052575670109
+      spriteID: cfcb31ee63d2b4210800000000000000
+      internalID: 1318197029881756924
       vertices: []
       indices: 
       edges: []
@@ -135,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "boto\xF3n gris_0": -4325059052575670109
+      Frame izquierda@4x_0: 1318197029881756924
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

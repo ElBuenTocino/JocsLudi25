@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f968a39d81e4db345b5d25c05f84115f
+guid: d340b1540a40df54da9a00ee8b31206e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8672154551153876745
-    second: ajustes2_0
+      213: -1972923146845417815
+    second: calendario2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ajustes2_0
+      name: calendario2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 168
-        height: 169
+        width: 206
+        height: 209
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7f0af2df16156a780800000000000000
-      internalID: -8672154551153876745
+      spriteID: 9ae0227d9d4ce94e0800000000000000
+      internalID: -1972923146845417815
       vertices: []
       indices: 
       edges: []
@@ -135,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ajustes2_0: -8672154551153876745
+      calendario2_0: -1972923146845417815
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
