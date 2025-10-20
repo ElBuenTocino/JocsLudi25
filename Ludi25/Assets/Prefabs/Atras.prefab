@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3049410951209848252
+--- !u!1 &2940825719688191504
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,24 +8,25 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2878578019890236016}
-  - component: {fileID: 738688935899448373}
-  - component: {fileID: 6202805590286456810}
-  - component: {fileID: 275108828112581542}
+  - component: {fileID: 3383907197936540234}
+  - component: {fileID: 2465194397619766070}
+  - component: {fileID: 5398988349912873745}
+  - component: {fileID: 300482365590377950}
+  - component: {fileID: 3818347920807052617}
   m_Layer: 5
-  m_Name: Opciones
+  m_Name: Atras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &2878578019890236016
+--- !u!224 &3383907197936540234
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3049410951209848252}
+  m_GameObject: {fileID: 2940825719688191504}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.1999999, y: 1.1999999, z: 1.1999999}
@@ -35,24 +36,24 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 913, y: 420}
-  m_SizeDelta: {x: 160, y: 160}
+  m_AnchoredPosition: {x: -676, y: 345}
+  m_SizeDelta: {x: 126.59, y: 126.59}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &738688935899448373
+--- !u!222 &2465194397619766070
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3049410951209848252}
+  m_GameObject: {fileID: 2940825719688191504}
   m_CullTransparentMesh: 1
---- !u!114 &6202805590286456810
+--- !u!114 &5398988349912873745
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3049410951209848252}
+  m_GameObject: {fileID: 2940825719688191504}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -66,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8672154551153876745, guid: f968a39d81e4db345b5d25c05f84115f, type: 3}
+  m_Sprite: {fileID: -6308064144102461728, guid: 656c8423450114445bbaacc8a4933068, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -76,13 +77,13 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &275108828112581542
+--- !u!114 &300482365590377950
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3049410951209848252}
+  m_GameObject: {fileID: 2940825719688191504}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
@@ -116,13 +117,13 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 6202805590286456810}
+  m_TargetGraphic: {fileID: 5398988349912873745}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: PanelHandler, Assembly-CSharp
-        m_MethodName: OpenPanel
+      - m_Target: {fileID: 3818347920807052617}
+        m_TargetAssemblyTypeName: SceneHandler, Assembly-CSharp
+        m_MethodName: ChangeScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -132,3 +133,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &3818347920807052617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2940825719688191504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be27e3bf40a5b248abc92f5b6fcc0c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToChange: 
+  scenePath: Assets/Scenes/MainMenu.unity
