@@ -48,10 +48,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isHerbivore: 0
   herbivoreSprites:
-  - {fileID: 21300000, guid: d06f8a259e0c55d468b36fe30fc0b8d5, type: 3}
+  - {fileID: -5850107864648418528, guid: 49dec3f903e66ff44924fa7de64fd0f1, type: 3}
   carnivoreSprites:
-  - {fileID: -6619111317931664985, guid: c2c8a7771a12f6848bc6f1f0d8a1d929, type: 3}
+  - {fileID: 21300000, guid: f6ff0e707aeaeb34faf8d91c126e148b, type: 3}
   speed: 1
+  manager: {fileID: 0}
 --- !u!212 &6170554322065932831
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -96,7 +97,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6619111317931664985, guid: c2c8a7771a12f6848bc6f1f0d8a1d929, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f6ff0e707aeaeb34faf8d91c126e148b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -144,8 +145,8 @@ BoxCollider2D:
   m_Offset: {x: -0.008550584, y: 0.9006577}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.49498492, y: 0.027210463}
-    oldSize: {x: 1.0166667, y: 1.925}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 1.0166667, y: 1.925}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

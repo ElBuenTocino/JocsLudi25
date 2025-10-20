@@ -504,7 +504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textUI: {fileID: 1580577795}
-  objectiu: 6
+  objectiu: 10
   number: 0
 --- !u!114 &1735201787
 MonoBehaviour:
@@ -604,6 +604,18 @@ PrefabInstance:
     - target: {fileID: 7693348292694893952, guid: c0f148e7d02785f489e4045206ea1963, type: 3}
       propertyPath: m_Name
       value: AlienNums
+      objectReference: {fileID: 0}
+    - target: {fileID: 7693348292694893952, guid: c0f148e7d02785f489e4045206ea1963, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8547325909415925619, guid: c0f148e7d02785f489e4045206ea1963, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8632048937784837168, guid: c0f148e7d02785f489e4045206ea1963, type: 3}
+      propertyPath: movableLayers.m_Bits
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9088991767920297043, guid: c0f148e7d02785f489e4045206ea1963, type: 3}
       propertyPath: m_LocalPosition.x

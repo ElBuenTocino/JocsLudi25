@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
+using UnityEngine.SceneManagement;
 
 public class CatchBalls : MonoBehaviour
 {
@@ -21,6 +23,10 @@ public class CatchBalls : MonoBehaviour
                 Debug.Log("mal" + ball.number);
             }
             Destroy(collision.gameObject);
+            if(puntuacionNums.number >= puntuacionNums.objectiu)
+            {
+                SceneManager.LoadScene("MainMenu");
+            }
         }
     }
 }
