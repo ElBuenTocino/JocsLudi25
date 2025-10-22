@@ -20,15 +20,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: a8652414e3e54c741bf8ebccfba8dfc6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/nivells_english.unity
     guid: 5db97c4e199daa34a87e67cd55274efd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/nivells_mates.unity
     guid: 0d8930cbc3cf471459f3a857c1ee27d8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/nivells_medi.unity
     guid: 3301021a0d724e649a27dc0226574687
+  - enabled: 1
+    path: Assets/Scenes/ParInpar.unity
+    guid: c48ea8c87a66f0343b722112588e4473
   - enabled: 1
     path: Assets/Scenes/Opciones.unity
     guid: 012e9a7f95bf75d4a996abca2a8f99d4

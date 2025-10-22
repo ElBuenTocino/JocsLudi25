@@ -2454,7 +2454,7 @@ MonoBehaviour:
   - {fileID: 248224605}
   - {fileID: 1517884386}
   score: 0
-  maxScore: 10
+  maxScore: 4
   scoreText: {fileID: 595592731}
   correct: 0
   gotToGoal: 0
