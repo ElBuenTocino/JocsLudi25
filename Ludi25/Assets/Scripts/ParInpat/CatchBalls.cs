@@ -5,8 +5,12 @@ using UnityEngine.SceneManagement;
 public class CatchBalls : MonoBehaviour
 {
     BallNumber ball;
-    public bool parell;
+    public bool parell, win;
     public PuntuacionNums puntuacionNums;
+    private void Start()
+    {
+        win = PlayerPrefs.GetInt("WinMates") == 1 ? true : false;
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.tag == "Ball")
@@ -25,6 +29,9 @@ public class CatchBalls : MonoBehaviour
             Destroy(collision.gameObject);
             if(puntuacionNums.number >= puntuacionNums.objectiu)
             {
+                win = true;
+                PlayerPrefs.SetInt("WinMates", win ? 1 : 0);
+                PlayerPrefs.Save();
                 SceneManager.LoadScene("MainMenu");
             }
         }
