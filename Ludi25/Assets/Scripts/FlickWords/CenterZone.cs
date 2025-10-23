@@ -5,7 +5,7 @@ public class CenterZone : MonoBehaviour
 {
     public int points, goal;
     public TextMeshProUGUI scoreText;
-
+    bool win;
 
 
     private void Update()
@@ -43,6 +43,9 @@ public class CenterZone : MonoBehaviour
     {
         GetComponent<SceneHandler>().ChangeScene();
         Debug.Log("Won!");
+        win = true;
+        PlayerPrefs.SetInt("WinWords", win ? 1 : 0);
+        PlayerPrefs.Save();
     }
 }
 
