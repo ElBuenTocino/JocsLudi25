@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7196d881671fa674da61d21b5b35d792
+guid: b794371f75bb1644d8d32deca19c63a0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5604796196903453309
-    second: giraffe_0
+      213: 5797606746199597790
+    second: Tortoise_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,23 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: giraffe_0
+      name: Tortoise_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 646
-        height: 300
+        x: 3
+        y: 75
+        width: 428
+        height: 211
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d7204e2127c38cd40800000000000000
-      internalID: 5604796196903453309
+      spriteID: ed2a2ae5e9c357050800000000000000
+      internalID: 5797606746199597790
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 354b6a08d5fd383439b0aeebb21e177c
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      giraffe_0: 5604796196903453309
+      Tortoise_0: 5797606746199597790
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

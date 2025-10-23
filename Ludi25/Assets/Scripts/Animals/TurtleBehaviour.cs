@@ -1,15 +1,15 @@
-using TMPro;
 using UnityEngine;
 
-public class ElephantBehaviour : RegularAnimalBehaviour
+public class TurtleBehaviour : RegularAnimalBehaviour
 {
-    public int health, maxHealth;
-    public TextMeshProUGUI text;
+    public float shieldCooldown;
+    float timer = 0;
+    bool shielding = false;
+    public GameObject shield;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        health = maxHealth;
         base.Start();
     }
 
@@ -17,35 +17,34 @@ public class ElephantBehaviour : RegularAnimalBehaviour
     void Update()
     {
         base.Update();
-    }
-
-    void Hit()
-    {
-        health--;
-        if (health < 0)
+        timer += Time.deltaTime;
+        if (timer >= shieldCooldown)
         {
-            health = 0;
+            shielding = !shielding;
+            timer = 0;
         }
-        text.text = ($"{health}/{maxHealth}");
-        if (health <= 0)
+        if (shielding)
         {
-            manager.correct = true;
-            manager.score += 2;
-            Destroy(gameObject);
+            shield.SetActive(true);
+        }
+        else 
+        { 
+            shield.SetActive(false);
         }
     }
 
-    override public void OnCollisionEnter2D(Collision2D collision)
+    public override void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Override");
         if (collision.gameObject.tag == "ProjectileH") //Get Shot by plant
         {
-            if (isHerbivore)
+            if (isHerbivore && !shielding)
             {
-                Hit();
+                manager.score++;
+                manager.correct = true;
                 Debug.Log("Correctly Hit a herbivore");
+                Destroy(gameObject);
             }
-            else //Carnivore
+            else if (!isHerbivore) //Carnivore
             {
                 manager.correct = false;
                 Debug.Log("Incorrectly Hit a carnivore");
@@ -54,16 +53,17 @@ public class ElephantBehaviour : RegularAnimalBehaviour
         }
         if (collision.gameObject.tag == "ProjectileC") //Get Shot by meat
         {
-            if (isHerbivore)
+            if (isHerbivore && !shielding)
             {
                 manager.correct = false;
                 Debug.Log("Incorrectly Hit a herbivore");
             }
-            else //Carnivore
+            else if (!isHerbivore) //Carnivore
             {
                 manager.score++;
                 manager.correct = true;
                 Debug.Log("Correctly Hit a carnivore");
+                Destroy(gameObject);
             }
             Destroy(collision.gameObject);
         }

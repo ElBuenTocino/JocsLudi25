@@ -9,11 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5724334005091186088}
-  - component: {fileID: 4214855056077452759}
+  - component: {fileID: 5449966949469328957}
   - component: {fileID: 6170554322065932831}
   - component: {fileID: -4515805180561007121}
   m_Layer: 0
-  m_Name: Jirafa
+  m_Name: Serp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,12 +29,12 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4775424, y: -0.5932766, z: -9.959915}
-  m_LocalScale: {x: 1, y: 1, z: 2}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4214855056077452759
+--- !u!114 &5449966949469328957
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -43,13 +43,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 8166655984046743193}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 044df158e651aaf4fb32101443c538d0, type: 3}
+  m_Script: {fileID: 11500000, guid: c2ea3014b8e104b4da56df6b765201fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isHerbivore: 1
-  animalSprite: {fileID: 5604796196903453309, guid: 7196d881671fa674da61d21b5b35d792, type: 3}
-  speed: 0
+  isHerbivore: 0
+  animalSprite: {fileID: -7766637424382265647, guid: e014a0d2631012443a7423039a556fae, type: 3}
+  speed: 1
   manager: {fileID: 0}
+  waveAmplitude: 0.5
+  waveFrequency: 3
+  directionChangeDelay: 0
 --- !u!212 &6170554322065932831
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -94,12 +97,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 5604796196903453309, guid: 7196d881671fa674da61d21b5b35d792, type: 3}
+  m_Sprite: {fileID: -7766637424382265647, guid: e014a0d2631012443a7423039a556fae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 6.46, y: 3}
+  m_Size: {x: 1.0166667, y: 1.925}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -139,15 +142,15 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 1.542737, y: -0.7563768}
+  m_Offset: {x: 0.022843838, y: -0.0068087876}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6.46, y: 3}
-    newSize: {x: 6.46, y: 3}
+    oldSize: {x: 9.48, y: 1.29}
+    newSize: {x: 1.0166667, y: 1.925}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.9210663, y: 1.6998965}
+  m_Size: {x: 9.5933275, y: 1.4095244}
   m_EdgeRadius: 0

@@ -9,7 +9,6 @@ public class RegularAnimalBehaviour : MonoBehaviour
 
     public void Start()
     {
-        speed = Random.Range(speed - 0.5f, speed + 0.5f);
         gameObject.tag = "Animal";
         GetComponent<SpriteRenderer>().sprite = animalSprite;
     }
@@ -24,7 +23,7 @@ public class RegularAnimalBehaviour : MonoBehaviour
         transform.position = new Vector2(transform.position.x + speed * Time.deltaTime, transform.position.y);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    public virtual void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "ProjectileH") //Get Shot by plant
         {

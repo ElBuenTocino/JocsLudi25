@@ -392,54 +392,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &326204335
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 326204337}
-  - component: {fileID: 326204336}
-  m_Layer: 0
-  m_Name: GameObject (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &326204336
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 326204335}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1bd0bddb8f3dff458b12e33e07e934c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isHerbivore: 0
-  animalSprite: {fileID: 0}
-  speed: 0
-  manager: {fileID: 0}
---- !u!4 &326204337
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 326204335}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.66442215, y: -2.1484256, z: 1393.9995}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &339797086
 GameObject:
   m_ObjectHideFlags: 0
@@ -2889,6 +2841,10 @@ MonoBehaviour:
   - {fileID: 8166655984046743193, guid: f11a6018d30957842ac8de8f354d77f7, type: 3}
   - {fileID: 8166655984046743193, guid: fbd3db348e2714341b0e0e924fe6a546, type: 3}
   - {fileID: 8166655984046743193, guid: 20c5b3b88d42fb94bbf66b8c789abd66, type: 3}
+  - {fileID: 8166655984046743193, guid: faa60918f7a3940489885d2c8796d954, type: 3}
+  - {fileID: 8166655984046743193, guid: 0297614e663e99849a7fdc1867737a05, type: 3}
+  - {fileID: 8166655984046743193, guid: ace9881098a6fda41a86f95e043a41ca, type: 3}
+  - {fileID: 8166655984046743193, guid: 754c7cf81c420a84f88e303de5ee4570, type: 3}
   spawnPoints:
   - {fileID: 754168350}
   - {fileID: 2117126141}
@@ -3094,4 +3050,3 @@ SceneRoots:
   - {fileID: 492334544}
   - {fileID: 1627484350}
   - {fileID: 1511796401}
-  - {fileID: 326204337}

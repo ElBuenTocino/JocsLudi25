@@ -16,7 +16,8 @@ public class CheetahBehaviour : RegularAnimalBehaviour
 
     override public void Movement()
     {
-        speed += 0.2f;
+        speed = Mathf.Pow(speed, 2) + 0.1f * Time.deltaTime;
+
         transform.position = new Vector2(transform.position.x + speed * Time.deltaTime, transform.position.y);
     }
 }
