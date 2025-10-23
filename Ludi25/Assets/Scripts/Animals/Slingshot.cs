@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Slingshot : MonoBehaviour
 {
@@ -25,6 +26,7 @@ public class Slingshot : MonoBehaviour
     Collider2D projectileCollider;
 
     public float force;
+    public Slider foodSlider;
 
     void Start()
     {
@@ -97,6 +99,7 @@ public class Slingshot : MonoBehaviour
 
         projectile = null;
         projectileCollider = null;
+        foodSlider.value--;
         Invoke("CreateProjectile", 0.5f); //Create a new Projectile and set the timer for between projectiles
     }
 

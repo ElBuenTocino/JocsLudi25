@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 656c8423450114445bbaacc8a4933068
+guid: a48b87d469cc3b54e98e186e2e39a20a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6308064144102461728
-    second: flecha2_0
+      213: 585679349008182817
+    second: Snail_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: flecha2_0
+      name: Snail_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 190
-        height: 137
+        x: 131
+        y: 187
+        width: 353
+        height: 226
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0eee46e15114578a0800000000000000
-      internalID: -6308064144102461728
+      spriteID: 12e2aedc340c02800800000000000000
+      internalID: 585679349008182817
       vertices: []
       indices: 
       edges: []
@@ -135,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      flecha2_0: -6308064144102461728
+      Snail_0: 585679349008182817
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

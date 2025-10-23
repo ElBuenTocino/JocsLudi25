@@ -504,7 +504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textUI: {fileID: 1580577795}
-  objectiu: 10
+  objectiu: 4
   number: 0
 --- !u!114 &1735201787
 MonoBehaviour:
@@ -601,6 +601,10 @@ PrefabInstance:
       propertyPath: puntuacionNums
       value: 
       objectReference: {fileID: 1735201786}
+    - target: {fileID: 7088456267631556276, guid: c0f148e7d02785f489e4045206ea1963, type: 3}
+      propertyPath: spawnInterval
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7693348292694893952, guid: c0f148e7d02785f489e4045206ea1963, type: 3}
       propertyPath: m_Name
       value: AlienNums

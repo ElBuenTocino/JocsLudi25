@@ -263,7 +263,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 0
-  goal: 10
+  goal: 4
   scoreText: {fileID: 2063151333}
 --- !u!58 &218000895
 CircleCollider2D:

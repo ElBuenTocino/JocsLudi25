@@ -1,35 +1,25 @@
 using UnityEngine;
 
-public class AnimalBehaviour : MonoBehaviour
+public class RegularAnimalBehaviour : MonoBehaviour
 {
     public bool isHerbivore;
-    public Sprite[] herbivoreSprites, carnivoreSprites;
+    public Sprite animalSprite;
     public float speed;
     public AnimalManager manager;
 
-    private void Start()
+    public void Start()
     {
         speed = Random.Range(speed - 0.5f, speed + 0.5f);
         gameObject.tag = "Animal";
-        int chance = Random.Range(0, 3);
-        if (chance == 0)
-        {
-            isHerbivore = true;
-            GetComponent<SpriteRenderer>().sprite = herbivoreSprites[Random.Range(0, herbivoreSprites.Length)];
-        }
-        else
-        {
-            isHerbivore = false;
-            GetComponent<SpriteRenderer>().sprite = carnivoreSprites[Random.Range(0, carnivoreSprites.Length)];
-        }
+        GetComponent<SpriteRenderer>().sprite = animalSprite;
     }
 
-    private void Update()
+    public void Update()
     {
         Movement();
     }
 
-    void Movement()
+    virtual public void Movement()
     {
         transform.position = new Vector2(transform.position.x + speed * Time.deltaTime, transform.position.y);
     }
@@ -46,7 +36,6 @@ public class AnimalBehaviour : MonoBehaviour
             }
             else //Carnivore
             {
-                //manager.score++;
                 manager.correct = false;
                 Debug.Log("Incorrectly Hit a carnivore");
             }
@@ -69,20 +58,9 @@ public class AnimalBehaviour : MonoBehaviour
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }
-        if (collision.gameObject.tag == "Goal") //Get to goal
+        if (collision.gameObject.tag == "Goal") //Got to goal
         {
             Debug.Log("Animal Touched goal");
-            //if (isHerbivore)
-            //{
-            //    manager.score++;
-            //}
-            //else //Carnivore
-            //{
-            //    if (manager.score > 0)
-            //    {
-            //        manager.score--;
-            //    }
-            //}
             manager.gotToGoal = true;
             Destroy(gameObject);
         }

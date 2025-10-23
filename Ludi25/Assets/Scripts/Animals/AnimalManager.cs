@@ -1,19 +1,26 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.Rendering;
+using UnityEngine.UI;
 
 public class AnimalManager : MonoBehaviour
 {
     public float timeToSpawn;
-    public GameObject animalPrefab;
+    public GameObject[] animalPrefabs;
     public Transform[] spawnPoints;
 
-    public int score = 0, maxScore;
+    public int score = 0, foodLeft;
     public TextMeshProUGUI scoreText;
+    public Slider foodSlider;
 
     private float timer = 0f;
 
     public bool correct, gotToGoal;
+
+    private void Start()
+    {
+        foodSlider.value = foodSlider.maxValue;
+    }
 
     void Update()
     {
@@ -23,10 +30,10 @@ public class AnimalManager : MonoBehaviour
 
     void SetScore()
     {
-        scoreText.text = ($"Punts: {score}/{maxScore}");
-        if (score >= maxScore)
+        scoreText.text = ($"Punts: {score}");
+        if (foodSlider.value == 0)
         {
-            Win();
+            End();
         }
     }
 
@@ -37,15 +44,15 @@ public class AnimalManager : MonoBehaviour
         {
             timer = 0f;
             AdjustDifficulty();
-            GameObject newAnimal = Instantiate(animalPrefab, spawnPoints[Random.Range(0, spawnPoints.Length)].position, Quaternion.identity);
-            newAnimal.GetComponent<AnimalBehaviour>().manager = this;
+            GameObject newAnimal = Instantiate(animalPrefabs[Random.Range(0, animalPrefabs.Length)], spawnPoints[Random.Range(0, spawnPoints.Length)].position, Quaternion.identity);
+            newAnimal.GetComponent<RegularAnimalBehaviour>().manager = this;
             if (gotToGoal) // Ajustar velocitat amb dificultat
             {
-                newAnimal.GetComponent<AnimalBehaviour>().speed -= 1f;
+                newAnimal.GetComponent<RegularAnimalBehaviour>().speed -= 1f;
             }
             if (newAnimal.transform.position.x > 0)
             {
-                newAnimal.GetComponent<AnimalBehaviour>().speed *= -1;
+                newAnimal.GetComponent<RegularAnimalBehaviour>().speed *= -1;
             }
             gotToGoal = false;
         }
@@ -63,7 +70,7 @@ public class AnimalManager : MonoBehaviour
         }
     }
 
-    void Win()
+    void End()
     {
         GetComponent<SceneHandler>().ChangeScene();
         Debug.Log("Won!");
