@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CheetahBehaviour : RegularAnimalBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public float acceleration = 0.1f;
     void Start()
     {
         base.Start();
@@ -16,8 +16,11 @@ public class CheetahBehaviour : RegularAnimalBehaviour
 
     override public void Movement()
     {
-        speed = Mathf.Pow(speed, 2) + 0.1f * Time.deltaTime;
+        speed += acceleration * Time.deltaTime;
 
-        transform.position = new Vector2(transform.position.x + speed * Time.deltaTime, transform.position.y);
+        transform.position = new Vector2(
+            transform.position.x + speed * Time.deltaTime,
+            transform.position.y
+        );
     }
 }

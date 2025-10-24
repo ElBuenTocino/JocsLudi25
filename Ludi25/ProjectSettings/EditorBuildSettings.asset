@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Animals.unity
     guid: 43ce37d66f4e6d8489ce3085392285ec
   - enabled: 1
+    path: Assets/Scenes/AnimalsPoints.unity
+    guid: 03dcb919573394048ab93018b6d8fc4c
+  - enabled: 1
     path: Assets/Scenes/ParaulesTema (Pau).unity
     guid: b2ed6e83a3928724d9402a695c23f84f
   - enabled: 1

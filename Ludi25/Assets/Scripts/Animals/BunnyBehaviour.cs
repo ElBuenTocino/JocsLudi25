@@ -39,7 +39,7 @@ public class BunnyBehaviour : RegularAnimalBehaviour
         float direction = Mathf.Sign(speed);
 
         // Target X position (move horizontally during the hop)
-        float targetX = basePosition.x + (speed * hopDuration * direction);
+        float targetX = basePosition.x + (Mathf.Abs(speed) * hopDuration * direction);
 
         // Flip sprite if needed
         SpriteRenderer sr = GetComponent<SpriteRenderer>();

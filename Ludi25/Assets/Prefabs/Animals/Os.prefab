@@ -136,7 +136,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 11.8}
+  m_AnchoredPosition: {x: -0.7, y: -2.6}
   m_SizeDelta: {x: 27.466, y: 7.694}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2378926602017443779
@@ -194,8 +194,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 5
-  m_fontSizeBase: 5
+  m_fontSize: 3
+  m_fontSizeBase: 3
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -251,7 +251,7 @@ GameObject:
   - component: {fileID: 6170554322065932831}
   - component: {fileID: -4515805180561007121}
   m_Layer: 0
-  m_Name: Elefant
+  m_Name: Os
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -267,7 +267,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4775424, y: -0.5932766, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 2}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3815342671115859446}
@@ -286,13 +286,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isHerbivore: 1
-  animalSprite: {fileID: 832877967638892730, guid: 0c438b0f0bbb38b4595149825818639a, type: 3}
+  animalSprite: {fileID: 7935234321397735378, guid: a618ad7c891c9c0418bb935c8472b0b8, type: 3}
   speed: 0.7
   manager: {fileID: 0}
   health: 0
-  maxHealth: 3
+  maxHealth: 2
   text: {fileID: 8140451549003617768}
-  isOmnivore: 0
+  isOmnivore: 1
 --- !u!212 &6170554322065932831
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -337,7 +337,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 832877967638892730, guid: 0c438b0f0bbb38b4595149825818639a, type: 3}
+  m_Sprite: {fileID: 7935234321397735378, guid: a618ad7c891c9c0418bb935c8472b0b8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -382,15 +382,15 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.30463505, y: 0.036052704}
+  m_Offset: {x: 0.08287585, y: 0.036052704}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 18.01, y: 9.8}
+    oldSize: {x: 5.63, y: 2.9}
     newSize: {x: 1.0166667, y: 1.925}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 18.867342, y: 10.533085}
+  m_Size: {x: 5.890333, y: 3.3481517}
   m_EdgeRadius: 0

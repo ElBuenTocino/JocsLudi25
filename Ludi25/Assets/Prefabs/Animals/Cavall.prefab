@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -1963032883704583005}
   - component: {fileID: -4515805180561007121}
   m_Layer: 0
-  m_Name: Guepard
+  m_Name: Cavall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -3922398471541106386, guid: 3b389dd99045f034784961dd6eb02d99, type: 3}
+  m_Sprite: {fileID: 7672759098259192623, guid: 59f52ddc0b748d4408eb8735d74a0500, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -101,11 +101,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1bd0bddb8f3dff458b12e33e07e934c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isHerbivore: 0
-  animalSprite: {fileID: -3922398471541106386, guid: 3b389dd99045f034784961dd6eb02d99, type: 3}
-  speed: 1.3
+  isHerbivore: 1
+  animalSprite: {fileID: 7672759098259192623, guid: 59f52ddc0b748d4408eb8735d74a0500, type: 3}
+  speed: 1.2
   manager: {fileID: 0}
-  acceleration: 0.4
+  acceleration: 0.3
 --- !u!61 &-4515805180561007121
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -144,11 +144,11 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6, y: 1.78}
+    oldSize: {x: 5.72, y: 3.45}
     newSize: {x: 1.0166667, y: 1.925}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.9076037, y: 0.93861175}
+  m_Size: {x: 5.772152, y: 3.5784602}
   m_EdgeRadius: 0

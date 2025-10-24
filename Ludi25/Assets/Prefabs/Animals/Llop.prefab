@@ -9,11 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5724334005091186088}
+  - component: {fileID: 4214855056077452759}
   - component: {fileID: 6170554322065932831}
-  - component: {fileID: -1963032883704583005}
   - component: {fileID: -4515805180561007121}
   m_Layer: 0
-  m_Name: Guepard
+  m_Name: Llop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,13 +27,29 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8166655984046743193}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4775424, y: -0.5932766, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 0.5, y: 0.5, z: 2}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4214855056077452759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166655984046743193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 044df158e651aaf4fb32101443c538d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHerbivore: 0
+  animalSprite: {fileID: -458185587419916677, guid: 005ecd31c47fb754a956a04a9a8b9543, type: 3}
+  speed: 1.1
+  manager: {fileID: 0}
 --- !u!212 &6170554322065932831
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -78,7 +94,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -3922398471541106386, guid: 3b389dd99045f034784961dd6eb02d99, type: 3}
+  m_Sprite: {fileID: -458185587419916677, guid: 005ecd31c47fb754a956a04a9a8b9543, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -89,23 +105,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-1963032883704583005
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8166655984046743193}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1bd0bddb8f3dff458b12e33e07e934c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isHerbivore: 0
-  animalSprite: {fileID: -3922398471541106386, guid: 3b389dd99045f034784961dd6eb02d99, type: 3}
-  speed: 1.3
-  manager: {fileID: 0}
-  acceleration: 0.4
 --- !u!61 &-4515805180561007121
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -140,15 +139,15 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.008550614, y: 0.008888304}
+  m_Offset: {x: 0.1021651, y: 0.008888304}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6, y: 1.78}
+    oldSize: {x: 4.66, y: 2.36}
     newSize: {x: 1.0166667, y: 1.925}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.9076037, y: 0.93861175}
+  m_Size: {x: 4.798456, y: 2.7849386}
   m_EdgeRadius: 0

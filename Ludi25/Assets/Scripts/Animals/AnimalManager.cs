@@ -20,10 +20,16 @@ public class AnimalManager : MonoBehaviour
     private void Start()
     {
         foodSlider.value = foodSlider.maxValue;
+        foodLeft = (int)foodSlider.maxValue;
     }
 
     void Update()
     {
+        if (foodLeft > foodSlider.maxValue)
+        {
+            foodLeft = (int)foodSlider.maxValue;
+        }
+        foodLeft = (int)foodSlider.value;
         SpawnAnimal();
         SetScore();
     }
@@ -72,6 +78,11 @@ public class AnimalManager : MonoBehaviour
 
     void End()
     {
+        PlayerPrefs.SetInt("AnimalScore", score);
+        if (score > PlayerPrefs.GetInt("AnimalHighScore"))
+        {
+            PlayerPrefs.SetInt("AnimalHighScore", score);
+        }
         GetComponent<SceneHandler>().ChangeScene();
         Debug.Log("Won!");
     }

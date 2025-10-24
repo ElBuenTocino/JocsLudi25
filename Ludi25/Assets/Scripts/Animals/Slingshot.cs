@@ -21,6 +21,7 @@ public class Slingshot : MonoBehaviour
     public GameObject projectilePrefab;
 
     public float projectilePositionOffset;
+    public float minPullDistance = 0.5f;
 
     Rigidbody2D projectile;
     Collider2D projectileCollider;
@@ -64,7 +65,17 @@ public class Slingshot : MonoBehaviour
 
             currentPosition = ClampBoundary(currentPosition);
 
+            Vector3 pullDir = (currentPosition - center.position).normalized;
+            bool wouldShootDown = (-pullDir.y < 0);
+
+            Color lineColor = wouldShootDown ? Color.red : Color.white;
+            lineRenderers[0].startColor = lineColor;
+            lineRenderers[0].endColor = lineColor;
+            lineRenderers[1].startColor = lineColor;
+            lineRenderers[1].endColor = lineColor;
+
             SetStrips(currentPosition);
+
 
             if (projectileCollider)
             {
@@ -91,6 +102,24 @@ public class Slingshot : MonoBehaviour
 
     void Shoot()
     {
+        float pullDistance = Vector3.Distance(currentPosition, center.position);
+        if (pullDistance < minPullDistance)
+        {
+            ResetStrips();
+            projectile.transform.position = idlePosition.position;
+            projectile.isKinematic = true;
+            projectileCollider.enabled = false;
+            return;
+        }
+        Vector3 pullDirection = (currentPosition - center.position).normalized;
+        if (-pullDirection.y < 0)
+        {
+            ResetStrips();
+            projectile.transform.position = idlePosition.position;
+            projectile.isKinematic = true;
+            projectileCollider.enabled = false;
+            return;
+        }
         projectile.isKinematic = false;
         Vector3 projectileForce = (currentPosition - center.position) * force * -1;
         projectile.linearVelocity = projectileForce;
@@ -100,8 +129,11 @@ public class Slingshot : MonoBehaviour
         projectile = null;
         projectileCollider = null;
         foodSlider.value--;
-        Invoke("CreateProjectile", 0.5f); //Create a new Projectile and set the timer for between projectiles
+        Invoke("CreateProjectile", 0.5f);
     }
+
+
+
 
     void ResetStrips()
     {

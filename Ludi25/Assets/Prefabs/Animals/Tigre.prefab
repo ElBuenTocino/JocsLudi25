@@ -36,8 +36,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.1995, y: 3.1189}
-  m_SizeDelta: {x: 42.6762, y: 34.4908}
+  m_AnchoredPosition: {x: 0.1995, y: 2.105}
+  m_SizeDelta: {x: 42.676, y: 30.436}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &1219028086022257203
 Canvas:
@@ -136,7 +136,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 11.8}
+  m_AnchoredPosition: {x: -1.6, y: -0.8}
   m_SizeDelta: {x: 27.466, y: 7.694}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2378926602017443779
@@ -194,8 +194,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 5
-  m_fontSizeBase: 5
+  m_fontSize: 2.5
+  m_fontSizeBase: 2.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -251,7 +251,7 @@ GameObject:
   - component: {fileID: 6170554322065932831}
   - component: {fileID: -4515805180561007121}
   m_Layer: 0
-  m_Name: Elefant
+  m_Name: Tigre
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -267,7 +267,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4775424, y: -0.5932766, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 2}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3815342671115859446}
@@ -285,12 +285,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42e9150e9149c7d469c480df9bb776a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isHerbivore: 1
-  animalSprite: {fileID: 832877967638892730, guid: 0c438b0f0bbb38b4595149825818639a, type: 3}
-  speed: 0.7
+  isHerbivore: 0
+  animalSprite: {fileID: 9085329464345055985, guid: d5e0e7264582b0c4d92c26aed258fe5d, type: 3}
+  speed: 0.9
   manager: {fileID: 0}
   health: 0
-  maxHealth: 3
+  maxHealth: 2
   text: {fileID: 8140451549003617768}
   isOmnivore: 0
 --- !u!212 &6170554322065932831
@@ -337,7 +337,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 832877967638892730, guid: 0c438b0f0bbb38b4595149825818639a, type: 3}
+  m_Sprite: {fileID: 9085329464345055985, guid: d5e0e7264582b0c4d92c26aed258fe5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -386,11 +386,11 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 18.01, y: 9.8}
+    oldSize: {x: 5.53, y: 2.57}
     newSize: {x: 1.0166667, y: 1.925}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 18.867342, y: 10.533085}
+  m_Size: {x: 6.5535, y: 2.967123}
   m_EdgeRadius: 0
