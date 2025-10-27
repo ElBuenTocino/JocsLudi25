@@ -7,9 +7,12 @@ public class CatchBalls : MonoBehaviour
     BallNumber ball;
     public bool parell, win;
     public PuntuacionNums puntuacionNums;
+    public BallSpawner ballSpawner;
+    public float spawnInt;
     private void Start()
     {
         win = PlayerPrefs.GetInt("WinMates") == 1 ? true : false;
+        spawnInt = ballSpawner.spawnInterval;
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -21,10 +24,12 @@ public class CatchBalls : MonoBehaviour
             {
                 Debug.Log("Nice - "+ ball.number);
                 puntuacionNums.number++;
+                indreaseDiff();
             }
             else
             {
                 Debug.Log("mal" + ball.number);
+                lowerDiff();
             }
             Destroy(collision.gameObject);
             if(puntuacionNums.number >= puntuacionNums.objectiu)
@@ -35,5 +40,14 @@ public class CatchBalls : MonoBehaviour
                 SceneManager.LoadScene("MainMenu");
             }
         }
+    }
+
+    private void indreaseDiff()
+    {
+        ballSpawner.spawnInterval -= puntuacionNums.number/10*2;
+    }
+    private void lowerDiff()
+    {
+        ballSpawner.spawnInterval = spawnInt;
     }
 }

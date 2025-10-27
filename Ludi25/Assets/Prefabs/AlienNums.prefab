@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7088456267631556276}
   - component: {fileID: -4657546799055743672}
   - component: {fileID: 156304321327179677}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: AlienNums
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movableLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1
   isMoveRestrictedToScreen: 1
 --- !u!50 &4302138958469177821
 Rigidbody2D:
@@ -187,7 +187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ballPrefab: {fileID: 4498285911620071146, guid: 99df494929369fc43b95891948ed1f1c, type: 3}
-  spawnInterval: 0.8
+  spawnInterval: 3
   spawnRangeX: 8
   spawnHeight: 6
 --- !u!114 &-4657546799055743672
@@ -203,6 +203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parell: 1
+  win: 0
   puntuacionNums: {fileID: 0}
 --- !u!114 &156304321327179677
 MonoBehaviour:
@@ -226,7 +227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3616730341165954783}
   - component: {fileID: 5086471045993545945}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}

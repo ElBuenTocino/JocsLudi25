@@ -8,7 +8,5 @@ public class WinRestart : MonoBehaviour
         PlayerPrefs.SetInt("WinMates", 0);
         PlayerPrefs.SetInt("WinMedi", 0);
         PlayerPrefs.Save();
-
-
     }
 }
