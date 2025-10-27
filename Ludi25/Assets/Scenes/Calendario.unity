@@ -855,8 +855,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Panel
       objectReference: {fileID: 0}
-    - target: {fileID: 70316814226517860, guid: d84dbbfeadc038346a2c9e27013d2768, type: 3}
-      propertyPath: m_IsActive
+    - target: {fileID: 1353322032717766416, guid: d84dbbfeadc038346a2c9e27013d2768, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373024364140868560, guid: d84dbbfeadc038346a2c9e27013d2768, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919167340055541380, guid: d84dbbfeadc038346a2c9e27013d2768, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308811395303111613, guid: d84dbbfeadc038346a2c9e27013d2768, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3968794569095071642, guid: d84dbbfeadc038346a2c9e27013d2768, type: 3}
@@ -885,11 +897,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3968794569095071642, guid: d84dbbfeadc038346a2c9e27013d2768, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -301.55127
+      value: 39.827
       objectReference: {fileID: 0}
     - target: {fileID: 3968794569095071642, guid: d84dbbfeadc038346a2c9e27013d2768, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -147.93066
+      value: 17.069
       objectReference: {fileID: 0}
     - target: {fileID: 3968794569095071642, guid: d84dbbfeadc038346a2c9e27013d2768, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2084,12 +2096,12 @@ RectTransform:
   - {fileID: 11978433}
   - {fileID: 1761761901}
   - {fileID: 911805906}
-  - {fileID: 880403707}
   - {fileID: 2081829431}
   - {fileID: 497580125}
   - {fileID: 567527116}
   - {fileID: 309958756}
   - {fileID: 134850428}
+  - {fileID: 880403707}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
