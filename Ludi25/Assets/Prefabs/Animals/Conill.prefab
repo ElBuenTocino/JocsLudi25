@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4775424, y: -0.5932766, z: 0}
-  m_LocalScale: {x: 0.08, y: 0.08, z: 2}
+  m_LocalScale: {x: 0.16, y: 0.16, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isHerbivore: 1
-  animalSprite: {fileID: 5110612511535974256, guid: 36a992af1a78dc14a8c7ee1e46671625, type: 3}
+  animalSprite: {fileID: -5821407627035863955, guid: 7a69da17e5cf5804fbfa73c85426fb2d, type: 3}
   speed: 1
   manager: {fileID: 0}
   hopHeight: 2
@@ -97,9 +97,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 5110612511535974256, guid: 36a992af1a78dc14a8c7ee1e46671625, type: 3}
+  m_Sprite: {fileID: -5821407627035863955, guid: 7a69da17e5cf5804fbfa73c85426fb2d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1.0166667, y: 1.925}
@@ -142,15 +142,15 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.16252518, y: 0.0763154}
+  m_Offset: {x: 0.08835149, y: -0.0073108673}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 19.36, y: 16.68}
+    oldSize: {x: 8.971583, y: 9.63}
     newSize: {x: 1.0166667, y: 1.925}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 20.044762, y: 17.202065}
+  m_Size: {x: 10.176958, y: 10.344776}
   m_EdgeRadius: 0

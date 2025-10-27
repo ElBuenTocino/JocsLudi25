@@ -27,8 +27,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 4.9799576}
-  m_LocalScale: {x: 4.908, y: 4.564, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2, y: 1.8598208, z: 0.40749797}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 5724334005091186088}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -116,7 +116,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4775424, y: -0.5932766, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 2}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 311309652308362655}
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isHerbivore: 1
-  animalSprite: {fileID: 5797606746199597790, guid: b794371f75bb1644d8d32deca19c63a0, type: 3}
+  animalSprite: {fileID: 6155921182180852705, guid: 56a7bc6c3d3137c44a401783dd48b49c, type: 3}
   speed: 0.2
   manager: {fileID: 0}
   shieldCooldown: 3
@@ -184,7 +184,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 5797606746199597790, guid: b794371f75bb1644d8d32deca19c63a0, type: 3}
+  m_Sprite: {fileID: 6155921182180852705, guid: 56a7bc6c3d3137c44a401783dd48b49c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -229,15 +229,15 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0016922951, y: -0.043941975}
+  m_Offset: {x: -0.0016922951, y: 0.0045930296}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.28, y: 2.11}
+    oldSize: {x: 1.71, y: 0.83}
     newSize: {x: 1.0166667, y: 1.925}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 4.3242226, y: 2.2630181}
+  m_Size: {x: 1.7768847, y: 0.8444884}
   m_EdgeRadius: 0

@@ -11,7 +11,10 @@ public class Flickable : MonoBehaviour
     public float flickForceMultiplier = 100f;
     public float minFlickForce = 25f;
     public float spinMultiplier = 500f; // max angular velocity for spin
+    public float lifetimeAfterFlick = 3f; // <-- time before object is destroyed
     public SpawnAndMoveToCenter spawnAndMoveToCenter;
+
+    private bool hasBeenFlicked = false; // prevent multiple flicks
 
     private void Awake()
     {
@@ -36,7 +39,8 @@ public class Flickable : MonoBehaviour
 
     private void OnMouseUp()
     {
-        if (!dragging) return;
+        if (!dragging || hasBeenFlicked) return;
+        hasBeenFlicked = true;
 
         Vector2 flickVector = mouseDelta * flickForceMultiplier;
 
@@ -81,5 +85,12 @@ public class Flickable : MonoBehaviour
                 Debug.Log("Incorrect Flick..");
             }
         }
+        StartCoroutine(DestroyAfterDelay());
+    }
+
+    private System.Collections.IEnumerator DestroyAfterDelay()
+    {
+        yield return new WaitForSeconds(lifetimeAfterFlick);
+        Destroy(gameObject);
     }
 }

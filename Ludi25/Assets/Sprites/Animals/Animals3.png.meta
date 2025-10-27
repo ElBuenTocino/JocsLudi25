@@ -1,0 +1,1391 @@
+fileFormatVersion: 2
+guid: 56a7bc6c3d3137c44a401783dd48b49c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9168446072724180600
+    second: Animals3_0
+  - first:
+      213: 1828208842997979373
+    second: Animals3_1
+  - first:
+      213: -4651543393422505684
+    second: Animals3_2
+  - first:
+      213: -5308329251084889090
+    second: Animals3_3
+  - first:
+      213: -95351340130101152
+    second: Animals3_4
+  - first:
+      213: 8261853292717422750
+    second: Animals3_5
+  - first:
+      213: 3454170105755114629
+    second: Animals3_6
+  - first:
+      213: 6155921182180852705
+    second: Animals3_7
+  - first:
+      213: 6152017598330133958
+    second: Animals3_8
+  - first:
+      213: 1371602601450932525
+    second: Animals3_9
+  - first:
+      213: 4703120130712108564
+    second: Animals3_10
+  - first:
+      213: 5713536501579071472
+    second: Animals3_11
+  - first:
+      213: 6938474245728776168
+    second: Animals3_12
+  - first:
+      213: -2998070658656621507
+    second: Animals3_13
+  - first:
+      213: 5644109743549305478
+    second: Animals3_14
+  - first:
+      213: -5578714910344324909
+    second: Animals3_15
+  - first:
+      213: -2624494252209065566
+    second: Animals3_16
+  - first:
+      213: 656713343054333252
+    second: Animals3_17
+  - first:
+      213: 5311440817345010894
+    second: Animals3_18
+  - first:
+      213: -2062134195671389463
+    second: Animals3_19
+  - first:
+      213: -5928281185329371080
+    second: Animals3_20
+  - first:
+      213: -7692776283184161264
+    second: Animals3_21
+  - first:
+      213: -1892935235422301414
+    second: Animals3_22
+  - first:
+      213: -4127755851824383342
+    second: Animals3_23
+  - first:
+      213: 7739026502793181230
+    second: Animals3_24
+  - first:
+      213: 1806180895837046883
+    second: Animals3_25
+  - first:
+      213: 3105483646787480974
+    second: Animals3_26
+  - first:
+      213: -6596752529299922251
+    second: Animals3_27
+  - first:
+      213: 5410589056657853858
+    second: Animals3_28
+  - first:
+      213: 1787174107847416704
+    second: Animals3_29
+  - first:
+      213: 5821980412954697832
+    second: Animals3_30
+  - first:
+      213: 9034398570068210381
+    second: Animals3_31
+  - first:
+      213: 920180838801139049
+    second: Animals3_32
+  - first:
+      213: 7625917461152978318
+    second: Animals3_33
+  - first:
+      213: -4643802815982408341
+    second: Animals3_34
+  - first:
+      213: -5520578673134572237
+    second: Animals3_35
+  - first:
+      213: 2052997794555158740
+    second: Animals3_36
+  - first:
+      213: -8768994739420009236
+    second: Animals3_37
+  - first:
+      213: -1451228487907344657
+    second: Animals3_38
+  - first:
+      213: -3555405071522372163
+    second: Animals3_39
+  - first:
+      213: 394584311327542134
+    second: Animals3_40
+  - first:
+      213: 6244211948372039320
+    second: Animals3_41
+  - first:
+      213: -8790175944745985074
+    second: Animals3_42
+  - first:
+      213: 1405747459376858253
+    second: Animals3_43
+  - first:
+      213: -7529356058118932728
+    second: Animals3_44
+  - first:
+      213: -8623692339993938672
+    second: Animals3_45
+  - first:
+      213: -462983083468860743
+    second: Animals3_46
+  - first:
+      213: 3536216055449368467
+    second: Animals3_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Animals3_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 352
+        width: 275
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88133f49fd223c080800000000000000
+      internalID: -9168446072724180600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_1
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 330
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de85f16a14a1f5910800000000000000
+      internalID: 1828208842997979373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_2
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 399
+        width: 201
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c298cb9bde5627fb0800000000000000
+      internalID: -4651543393422505684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_3
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 297
+        width: 190
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3154ebba60556b0800000000000000
+      internalID: -5308329251084889090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_4
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 195
+        width: 115
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06810ba167e3daef0800000000000000
+      internalID: -95351340130101152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_5
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 306
+        width: 98
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9830daebcff7a270800000000000000
+      internalID: 8261853292717422750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_6
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 59
+        width: 162
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c9e43096dafef20800000000000000
+      internalID: 3454170105755114629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_7
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 207
+        width: 171
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e3413123b93e6550800000000000000
+      internalID: 6155921182180852705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_8
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 53
+        width: 187
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd5b60396b506550800000000000000
+      internalID: 6152017598330133958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_9
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 150
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d290c788c49e80310800000000000000
+      internalID: 1371602601450932525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_10
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 150
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e751737d6d44140800000000000000
+      internalID: 4703120130712108564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_11
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 150
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff39d33d2f8a4f40800000000000000
+      internalID: 5713536501579071472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_12
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 150
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef2cdb90996a4060800000000000000
+      internalID: 6938474245728776168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_13
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 150
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c2043de96b466d0800000000000000
+      internalID: -2998070658656621507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_14
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 150
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682d39178e7e35e40800000000000000
+      internalID: 5644109743549305478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_15
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 150
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d850c9a85c6492b0800000000000000
+      internalID: -5578714910344324909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_16
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 150
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1360ef16ce39bd0800000000000000
+      internalID: -2624494252209065566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_17
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 107
+        width: 9
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445430c5e4d1d1900800000000000000
+      internalID: 656713343054333252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_18
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 106
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc1c5b384706b940800000000000000
+      internalID: 5311440817345010894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_19
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 106
+        width: 12
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea22dbefd3d163e0800000000000000
+      internalID: -2062134195671389463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_20
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 107
+        width: 10
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838afcbdba38abda0800000000000000
+      internalID: -5928281185329371080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_21
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 106
+        width: 12
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e12408ab4cd3590800000000000000
+      internalID: -7692776283184161264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_22
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 107
+        width: 12
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1355ddbe61fab5e0800000000000000
+      internalID: -1892935235422301414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_23
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 107
+        width: 14
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ab77c2ce347b6c0800000000000000
+      internalID: -4127755851824383342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_24
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 106
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e283256e99b866b60800000000000000
+      internalID: 7739026502793181230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_25
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 107
+        width: 10
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368c67884f7d01910800000000000000
+      internalID: 1806180895837046883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_26
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 106
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d6d865ce4e81b20800000000000000
+      internalID: 3105483646787480974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_27
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 107
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b22be39680a374a0800000000000000
+      internalID: -6596752529299922251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_28
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 106
+        width: 10
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad05bb9416461b40800000000000000
+      internalID: 5410589056657853858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_29
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 83
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b550ad1615dc810800000000000000
+      internalID: 1787174107847416704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_30
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 72
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8606273e654dbc050800000000000000
+      internalID: 5821980412954697832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_31
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 72
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2763812a1a06d70800000000000000
+      internalID: 9034398570068210381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_32
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 72
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965ecd9f89325cc00800000000000000
+      internalID: 920180838801139049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_33
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 72
+        width: 8
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e85d87ee683b4d960800000000000000
+      internalID: 7625917461152978318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_34
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 72
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6de86a51f5ed8fb0800000000000000
+      internalID: -4643802815982408341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_35
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 72
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d673132f6f263b0800000000000000
+      internalID: -5520578673134572237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_36
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 72
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0ee1ded96bd7c10800000000000000
+      internalID: 2052997794555158740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_37
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 72
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cece99f9eb54e4680800000000000000
+      internalID: -8768994739420009236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_38
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 71
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feefa5211633cdbe0800000000000000
+      internalID: -1451228487907344657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_39
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 72
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5694fbce9a8aec0800000000000000
+      internalID: -3555405071522372163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_40
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 83
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67bce9e2758d97500800000000000000
+      internalID: 394584311327542134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_41
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 23
+        width: 60
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89617fc0fa5e7a650800000000000000
+      internalID: 6244211948372039320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_42
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 24
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb5b34fc85030680800000000000000
+      internalID: -8790175944745985074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_43
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 25
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84c018cdd7328310800000000000000
+      internalID: 1405747459376858253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_44
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 26
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807b260be8a528790800000000000000
+      internalID: -7529356058118932728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_45
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 23
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015776ec18d725880800000000000000
+      internalID: -8623692339993938672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_46
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 26
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2d2dca6572399f0800000000000000
+      internalID: -462983083468860743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animals3_47
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 26
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397b71a44c9231130800000000000000
+      internalID: 3536216055449368467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Animals3_0: -9168446072724180600
+      Animals3_1: 1828208842997979373
+      Animals3_10: 4703120130712108564
+      Animals3_11: 5713536501579071472
+      Animals3_12: 6938474245728776168
+      Animals3_13: -2998070658656621507
+      Animals3_14: 5644109743549305478
+      Animals3_15: -5578714910344324909
+      Animals3_16: -2624494252209065566
+      Animals3_17: 656713343054333252
+      Animals3_18: 5311440817345010894
+      Animals3_19: -2062134195671389463
+      Animals3_2: -4651543393422505684
+      Animals3_20: -5928281185329371080
+      Animals3_21: -7692776283184161264
+      Animals3_22: -1892935235422301414
+      Animals3_23: -4127755851824383342
+      Animals3_24: 7739026502793181230
+      Animals3_25: 1806180895837046883
+      Animals3_26: 3105483646787480974
+      Animals3_27: -6596752529299922251
+      Animals3_28: 5410589056657853858
+      Animals3_29: 1787174107847416704
+      Animals3_3: -5308329251084889090
+      Animals3_30: 5821980412954697832
+      Animals3_31: 9034398570068210381
+      Animals3_32: 920180838801139049
+      Animals3_33: 7625917461152978318
+      Animals3_34: -4643802815982408341
+      Animals3_35: -5520578673134572237
+      Animals3_36: 2052997794555158740
+      Animals3_37: -8768994739420009236
+      Animals3_38: -1451228487907344657
+      Animals3_39: -3555405071522372163
+      Animals3_4: -95351340130101152
+      Animals3_40: 394584311327542134
+      Animals3_41: 6244211948372039320
+      Animals3_42: -8790175944745985074
+      Animals3_43: 1405747459376858253
+      Animals3_44: -7529356058118932728
+      Animals3_45: -8623692339993938672
+      Animals3_46: -462983083468860743
+      Animals3_47: 3536216055449368467
+      Animals3_5: 8261853292717422750
+      Animals3_6: 3454170105755114629
+      Animals3_7: 6155921182180852705
+      Animals3_8: 6152017598330133958
+      Animals3_9: 1371602601450932525
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

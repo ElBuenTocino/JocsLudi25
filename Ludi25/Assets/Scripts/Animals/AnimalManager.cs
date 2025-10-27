@@ -56,10 +56,6 @@ public class AnimalManager : MonoBehaviour
             {
                 newAnimal.GetComponent<RegularAnimalBehaviour>().speed -= 1f;
             }
-            if (newAnimal.transform.position.x > 0)
-            {
-                newAnimal.GetComponent<RegularAnimalBehaviour>().speed *= -1;
-            }
             gotToGoal = false;
         }
     }

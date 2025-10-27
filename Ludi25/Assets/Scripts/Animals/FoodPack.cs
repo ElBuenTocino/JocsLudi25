@@ -25,7 +25,7 @@ public class FoodPack : MonoBehaviour
         }
         else if (collision.gameObject.tag == "ProjectileH" || collision.gameObject.tag == "ProjectileC")
         {
-            animalM.foodLeft += 4;
+            animalM.foodSlider.value += 4;
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }
