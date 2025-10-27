@@ -8,6 +8,7 @@ public class AnimalManager : MonoBehaviour
     public float timeToSpawn;
     public GameObject[] animalPrefabs;
     public Transform[] spawnPoints;
+    bool win;
 
     public int score = 0, foodLeft;
     public TextMeshProUGUI scoreText;
@@ -81,5 +82,8 @@ public class AnimalManager : MonoBehaviour
         }
         GetComponent<SceneHandler>().ChangeScene();
         Debug.Log("Won!");
+        win = true;
+        PlayerPrefs.SetInt("WinMedi", win ? 1 : 0);
+        PlayerPrefs.Save();
     }
 }
