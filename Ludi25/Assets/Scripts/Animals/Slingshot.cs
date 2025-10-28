@@ -68,7 +68,7 @@ public class Slingshot : MonoBehaviour
             Vector3 pullDir = (currentPosition - center.position).normalized;
             bool wouldShootDown = (-pullDir.y < 0);
 
-            Color lineColor = wouldShootDown ? Color.red : Color.white;
+            Color lineColor = wouldShootDown ? Color.red : Color.black;
             lineRenderers[0].startColor = lineColor;
             lineRenderers[0].endColor = lineColor;
             lineRenderers[1].startColor = lineColor;

@@ -402,7 +402,7 @@ PrefabInstance:
     - target: {fileID: 1326244072622478813, guid: bfc489d094baada4bbd84cf836aae717, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1120385298130420184, guid: 41de113f56f95b64cb125f5aaf7eb470, type: 3}
+      objectReference: {fileID: 7638363451402677507, guid: cdc9dfd3c8f0c6545bf4555d4bffdec8, type: 3}
     - target: {fileID: 4144197361687179170, guid: bfc489d094baada4bbd84cf836aae717, type: 3}
       propertyPath: m_Name
       value: Fondo
@@ -433,11 +433,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4788462058667995686, guid: bfc489d094baada4bbd84cf836aae717, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 2208.97
+      value: 1920
       objectReference: {fileID: 0}
     - target: {fileID: 4788462058667995686, guid: bfc489d094baada4bbd84cf836aae717, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1082.9
+      value: 1080
       objectReference: {fileID: 0}
     - target: {fileID: 4788462058667995686, guid: bfc489d094baada4bbd84cf836aae717, type: 3}
       propertyPath: m_LocalPosition.x
@@ -469,11 +469,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4788462058667995686, guid: bfc489d094baada4bbd84cf836aae717, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 118.95
+      value: -0.0085487
       objectReference: {fileID: 0}
     - target: {fileID: 4788462058667995686, guid: bfc489d094baada4bbd84cf836aae717, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1.4568
+      value: -0.0033474
       objectReference: {fileID: 0}
     - target: {fileID: 4788462058667995686, guid: bfc489d094baada4bbd84cf836aae717, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -763,7 +763,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1326966594}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.61, y: -2.76, z: 0}
   m_LocalScale: {x: 0.51828, y: 0.51828, z: 0.51828}
   m_ConstrainProportionsScale: 0
@@ -813,9 +813,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -3378027266006492329, guid: 14a2bb9a3a227344d9cef2a89ba2ceb0, type: 3}
-  m_Color: {r: 0.6462264, g: 1, b: 0.9916398, a: 1}
+  m_Color: {r: 0.6745098, g: 0.8117648, b: 0.9490197, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

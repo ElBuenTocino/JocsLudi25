@@ -32,14 +32,15 @@ public class RegularAnimalBehaviour : MonoBehaviour
                 manager.score++;
                 manager.correct = true;
                 Debug.Log("Correctly Hit a herbivore");
+                OnHit(true);
             }
             else //Carnivore
             {
                 manager.correct = false;
                 Debug.Log("Incorrectly Hit a carnivore");
+                OnHit(false);
             }
             Destroy(collision.gameObject);
-            Destroy(gameObject);
         }
         if (collision.gameObject.tag == "ProjectileC") //Get Shot by meat
         {
@@ -47,15 +48,16 @@ public class RegularAnimalBehaviour : MonoBehaviour
             {
                 manager.correct = false;
                 Debug.Log("Incorrectly Hit a herbivore");
+                OnHit(false);
             }
             else //Carnivore
             {
                 manager.score++;
                 manager.correct = true;
                 Debug.Log("Correctly Hit a carnivore");
+                OnHit(true);
             }
             Destroy(collision.gameObject);
-            Destroy(gameObject);
         }
         if (collision.gameObject.tag == "Goal") //Got to goal
         {
@@ -63,5 +65,20 @@ public class RegularAnimalBehaviour : MonoBehaviour
             manager.gotToGoal = true;
             Destroy(gameObject);
         }
+    }
+
+    public virtual void OnHit(bool goodHit)
+    {
+        if (goodHit)
+        {
+            GetComponent<SpriteRenderer>().color = new Color(0,1,0);
+        }
+        else
+        {
+            GetComponent<SpriteRenderer>().color = new Color(1, 0, 0);
+        }
+        var sca = gameObject.transform.localScale;
+        gameObject.transform.localScale = new Vector3(sca.x + 0.01f, sca.y + 0.01f, sca.z + 0.01f);
+        Destroy(gameObject, 0.05f);
     }
 }

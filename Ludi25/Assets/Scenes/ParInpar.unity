@@ -135,7 +135,7 @@ PrefabInstance:
     - target: {fileID: 1326244072622478813, guid: bfc489d094baada4bbd84cf836aae717, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -386423628437862023, guid: 740902278cf5e30459ad85b023a1b6ab, type: 3}
+      objectReference: {fileID: 9049452707828524204, guid: 4a0619f80a1243340b1ae4a5b862bba9, type: 3}
     - target: {fileID: 4144197361687179170, guid: bfc489d094baada4bbd84cf836aae717, type: 3}
       propertyPath: m_Name
       value: Fondo
@@ -166,7 +166,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4788462058667995686, guid: bfc489d094baada4bbd84cf836aae717, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 2208.97
+      value: 1920
       objectReference: {fileID: 0}
     - target: {fileID: 4788462058667995686, guid: bfc489d094baada4bbd84cf836aae717, type: 3}
       propertyPath: m_SizeDelta.y
@@ -202,7 +202,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4788462058667995686, guid: bfc489d094baada4bbd84cf836aae717, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 118.95
+      value: -0.0085487
       objectReference: {fileID: 0}
     - target: {fileID: 4788462058667995686, guid: bfc489d094baada4bbd84cf836aae717, type: 3}
       propertyPath: m_AnchoredPosition.y
