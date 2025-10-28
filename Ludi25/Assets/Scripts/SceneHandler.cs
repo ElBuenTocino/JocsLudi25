@@ -6,6 +6,7 @@ public class SceneHandler : MonoBehaviour
     public string sceneToChange;
     [SerializeField]
     public string scenePath;
+    AudioManager audioManager;
 
     public void ChangeScene()
     {
