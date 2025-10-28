@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isHerbivore: 1
-  animalSprite: {fileID: 640436891153906494, guid: ac7bf8d66e6976d4186b14002a2b2fca, type: 3}
+  animalSprite: {fileID: 2952303123372944068, guid: f717d783cdd5d0a45bca47bb8b0b7707, type: 3}
   speed: 1
   manager: {fileID: 0}
 --- !u!212 &6170554322065932831
@@ -94,7 +94,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 640436891153906494, guid: ac7bf8d66e6976d4186b14002a2b2fca, type: 3}
+  m_Sprite: {fileID: 2952303123372944068, guid: f717d783cdd5d0a45bca47bb8b0b7707, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -143,11 +143,11 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.83, y: 5.29}
+    oldSize: {x: 6.72, y: 4.7}
     newSize: {x: 1.0166667, y: 1.925}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 7.9886003, y: 5.290988}
+  m_Size: {x: 6.7899685, y: 4.778116}
   m_EdgeRadius: 0
