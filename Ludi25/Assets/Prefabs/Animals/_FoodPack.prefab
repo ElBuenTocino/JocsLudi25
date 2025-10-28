@@ -103,6 +103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalM: {fileID: 0}
+  lifetime: 5
 --- !u!61 &7310014701486880720
 BoxCollider2D:
   m_ObjectHideFlags: 0
