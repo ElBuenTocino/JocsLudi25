@@ -9,6 +9,11 @@ public class CatchBalls : MonoBehaviour
     public PuntuacionNums puntuacionNums;
     public BallSpawner ballSpawner;
     public float spawnInt;
+    AudioManager audioManager;
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Sound").GetComponent<AudioManager>();
+    }
     private void Start()
     {
         win = PlayerPrefs.GetInt("WinMates") == 1 ? true : false;
@@ -24,6 +29,7 @@ public class CatchBalls : MonoBehaviour
             {
                 Debug.Log("Nice - "+ ball.number);
                 puntuacionNums.number++;
+                audioManager.PlaySFX(audioManager.pop);
                 indreaseDiff();
             }
             else
