@@ -49,7 +49,11 @@ MonoBehaviour:
   musicSource: {fileID: 1270672322313594810}
   SFXSource: {fileID: 1255430033356130156}
   background: {fileID: 0}
-  bite: {fileID: 8300000, guid: 4dbb30941f9e52f41b8fa5a975eb93ff, type: 3}
+  bite: {fileID: 8300000, guid: 06b67f2c8eb9b0345a9571b197a09b72, type: 3}
+  pop: {fileID: 8300000, guid: f2691c90825f76747a6c095128c81618, type: 3}
+  button: {fileID: 8300000, guid: febdb883efab34240842beb4decb4321, type: 3}
+  sling1: {fileID: 8300000, guid: cd46f03b4251c5e4e995604b5ecc8061, type: 3}
+  sling2: {fileID: 8300000, guid: 12361e3113ce56d469b0928611ed6274, type: 3}
 --- !u!1 &2833673496107123362
 GameObject:
   m_ObjectHideFlags: 0

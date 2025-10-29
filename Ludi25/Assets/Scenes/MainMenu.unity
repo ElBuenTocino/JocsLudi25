@@ -360,6 +360,7 @@ GameObject:
   - component: {fileID: 401412320}
   - component: {fileID: 401412319}
   - component: {fileID: 401412323}
+  - component: {fileID: 401412324}
   m_Layer: 5
   m_Name: English
   m_TagString: Untagged
@@ -445,9 +446,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 401412319}
-        m_TargetAssemblyTypeName: SceneHandler, Assembly-CSharp
-        m_MethodName: ChangeScene
+      - m_Target: {fileID: 401412324}
+        m_TargetAssemblyTypeName: SFX, Assembly-CSharp
+        m_MethodName: playButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -508,6 +509,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materia: WinWords
+--- !u!114 &401412324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401412317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 557e171c07d56ad4eaf6be552e322c0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneHandler: {fileID: 401412319}
 --- !u!1 &447518804 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 70316814226517860, guid: d84dbbfeadc038346a2c9e27013d2768, type: 3}
@@ -682,6 +696,7 @@ GameObject:
   - component: {fileID: 505560325}
   - component: {fileID: 505560324}
   - component: {fileID: 505560328}
+  - component: {fileID: 505560329}
   m_Layer: 5
   m_Name: mates
   m_TagString: Untagged
@@ -767,9 +782,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 505560324}
-        m_TargetAssemblyTypeName: SceneHandler, Assembly-CSharp
-        m_MethodName: ChangeScene
+      - m_Target: {fileID: 505560329}
+        m_TargetAssemblyTypeName: SFX, Assembly-CSharp
+        m_MethodName: playButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -830,6 +845,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materia: WinMates
+--- !u!114 &505560329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505560322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 557e171c07d56ad4eaf6be552e322c0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneHandler: {fileID: 505560324}
 --- !u!1 &699607573
 GameObject:
   m_ObjectHideFlags: 0
@@ -1468,6 +1496,7 @@ GameObject:
   - component: {fileID: 1829593976}
   - component: {fileID: 1829593975}
   - component: {fileID: 1829593979}
+  - component: {fileID: 1829593980}
   m_Layer: 5
   m_Name: Medi
   m_TagString: Untagged
@@ -1553,9 +1582,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1829593975}
-        m_TargetAssemblyTypeName: SceneHandler, Assembly-CSharp
-        m_MethodName: ChangeScene
+      - m_Target: {fileID: 1829593980}
+        m_TargetAssemblyTypeName: SFX, Assembly-CSharp
+        m_MethodName: playButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1616,6 +1645,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materia: WinMedi
+--- !u!114 &1829593980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829593973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 557e171c07d56ad4eaf6be552e322c0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneHandler: {fileID: 1829593975}
 --- !u!1001 &1860203215
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1959,6 +2001,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AlienUI
       objectReference: {fileID: 0}
+    - target: {fileID: 4532559225718621501, guid: 570637c42cb198e469a359df8e97afc5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1966,6 +2012,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4532559225718621501, guid: 570637c42cb198e469a359df8e97afc5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2053273873}
+    - targetCorrespondingSourceObject: {fileID: 4532559225718621501, guid: 570637c42cb198e469a359df8e97afc5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2053273874}
   m_SourcePrefab: {fileID: 100100000, guid: 570637c42cb198e469a359df8e97afc5, type: 3}
 --- !u!224 &2053273872 stripped
 RectTransform:
@@ -1994,6 +2043,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2053273874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103227278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8332f4f8fce6e44da0256702d7a2714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1236085734623005734
 PrefabInstance:
   m_ObjectHideFlags: 0

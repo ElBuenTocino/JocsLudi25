@@ -10,7 +10,7 @@ public class CenterZone : MonoBehaviour
 
     private void Update()
     {
-        scoreText.text = ($"PUNTS: {points}/{goal}");
+        scoreText.text = ($"{points}/{goal}");
     }
 
     private void OnTriggerEnter2D(Collider2D other)

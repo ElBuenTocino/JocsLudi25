@@ -28,6 +28,13 @@ public class Slingshot : MonoBehaviour
 
     public float force;
     public Slider foodSlider;
+    AudioManager audioManager;
+    bool playClip1 = true;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Sound").GetComponent<AudioManager>();
+    }
 
     void Start()
     {
@@ -75,6 +82,11 @@ public class Slingshot : MonoBehaviour
             lineRenderers[1].endColor = lineColor;
 
             SetStrips(currentPosition);
+            if (playClip1)
+            {
+                audioManager.PlaySFX(audioManager.sling1);
+                playClip1 = false;
+            }
 
 
             if (projectileCollider)
@@ -96,6 +108,7 @@ public class Slingshot : MonoBehaviour
     private void OnMouseUp()
     {
         isMouseDown = false;
+        playClip1 = true;
         Shoot();
         currentPosition = idlePosition.position;
     }
@@ -129,6 +142,7 @@ public class Slingshot : MonoBehaviour
         projectile = null;
         projectileCollider = null;
         foodSlider.value--;
+        audioManager.PlaySFX(audioManager.sling2);
         Invoke("CreateProjectile", 0.5f);
     }
 

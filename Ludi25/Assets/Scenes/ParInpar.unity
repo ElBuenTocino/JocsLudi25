@@ -477,6 +477,10 @@ PrefabInstance:
       propertyPath: bite
       value: 
       objectReference: {fileID: 8300000, guid: 06b67f2c8eb9b0345a9571b197a09b72, type: 3}
+    - target: {fileID: 2119359546935846087, guid: b8631015718e3f4478becc24e8818571, type: 3}
+      propertyPath: background
+      value: 
+      objectReference: {fileID: 8300000, guid: 3b1e3202fbb9ca944841c1d2340fdfdf, type: 3}
     - target: {fileID: 8956512576781442670, guid: b8631015718e3f4478becc24e8818571, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5

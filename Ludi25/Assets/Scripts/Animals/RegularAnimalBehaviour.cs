@@ -6,6 +6,12 @@ public class RegularAnimalBehaviour : MonoBehaviour
     public Sprite animalSprite;
     public float speed;
     public AnimalManager manager;
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Sound").GetComponent<AudioManager>();
+    }
 
     public void Start()
     {
@@ -77,6 +83,7 @@ public class RegularAnimalBehaviour : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().color = new Color(1, 0, 0);
         }
+        audioManager.PlaySFX(audioManager.bite);
         var sca = gameObject.transform.localScale;
         gameObject.transform.localScale = new Vector3(sca.x + 0.01f, sca.y + 0.01f, sca.z + 0.01f);
         Destroy(gameObject, 0.05f);

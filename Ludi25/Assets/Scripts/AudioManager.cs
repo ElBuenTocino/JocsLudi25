@@ -10,6 +10,12 @@ public class AudioManager : MonoBehaviour
     public AudioClip background;
     public AudioClip bite;
     public AudioClip pop;
+    public AudioClip button;
+    public AudioClip button2;
+    public AudioClip sling1;
+    public AudioClip sling2;
+    public AudioClip woosh;
+    public AudioClip wrong;
     
 
 

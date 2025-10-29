@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: c9ffe68ceb593304893f240aebcea001
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3325088646576407506
+    second: spriteSheetEstrellas_0
+  - first:
+      213: 7362016573738926303
+    second: spriteSheetEstrellas_1
+  - first:
+      213: 1343775720284727973
+    second: spriteSheetEstrellas_2
+  - first:
+      213: 744407180120844789
+    second: spriteSheetEstrellas_3
+  - first:
+      213: 5177228629552482168
+    second: spriteSheetEstrellas_4
+  - first:
+      213: -8162814633326760495
+    second: spriteSheetEstrellas_5
+  - first:
+      213: -2571001492520133623
+    second: spriteSheetEstrellas_6
+  - first:
+      213: -6011621676019963634
+    second: spriteSheetEstrellas_7
+  - first:
+      213: -2992477802542124662
+    second: spriteSheetEstrellas_8
+  - first:
+      213: -5675744651313500737
+    second: spriteSheetEstrellas_9
+  - first:
+      213: -5680795948970603415
+    second: spriteSheetEstrellas_10
+  - first:
+      213: 3118960510794724960
+    second: spriteSheetEstrellas_11
+  - first:
+      213: -7019413697125583532
+    second: spriteSheetEstrellas_12
+  - first:
+      213: -2514767019967938444
+    second: spriteSheetEstrellas_13
+  - first:
+      213: -5361386713707322025
+    second: spriteSheetEstrellas_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spriteSheetEstrellas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 293
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d30fd9c186152e20800000000000000
+      internalID: 3325088646576407506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheetEstrellas_1
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 0
+        width: 294
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd04f3471132b2660800000000000000
+      internalID: 7362016573738926303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheetEstrellas_2
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 0
+        width: 294
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aaad51e5ec06a210800000000000000
+      internalID: 1343775720284727973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheetEstrellas_3
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 0
+        width: 294
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f96a53e26aa45a00800000000000000
+      internalID: 744407180120844789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheetEstrellas_4
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 0
+        width: 294
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8774579220639d740800000000000000
+      internalID: 5177228629552482168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheetEstrellas_5
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 30
+        width: 294
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dda235e65bd7be80800000000000000
+      internalID: -8162814633326760495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheetEstrellas_6
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 30
+        width: 294
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c9659a3c7f15cd0800000000000000
+      internalID: -2571001492520133623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheetEstrellas_7
+      rect:
+        serializedVersion: 2
+        x: 2043
+        y: 30
+        width: 294
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09aac4cfed629ca0800000000000000
+      internalID: -6011621676019963634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheetEstrellas_8
+      rect:
+        serializedVersion: 2
+        x: 2335
+        y: 30
+        width: 294
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a813c3d1b459876d0800000000000000
+      internalID: -2992477802542124662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheetEstrellas_9
+      rect:
+        serializedVersion: 2
+        x: 2627
+        y: 30
+        width: 294
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbda2ae9f44bb31b0800000000000000
+      internalID: -5675744651313500737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheetEstrellas_10
+      rect:
+        serializedVersion: 2
+        x: 2919
+        y: 0
+        width: 294
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c012cbe22c921b0800000000000000
+      internalID: -5680795948970603415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheetEstrellas_11
+      rect:
+        serializedVersion: 2
+        x: 3211
+        y: 0
+        width: 294
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066f3624f06c84b20800000000000000
+      internalID: 3118960510794724960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheetEstrellas_12
+      rect:
+        serializedVersion: 2
+        x: 3503
+        y: 0
+        width: 294
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4557153de68069e90800000000000000
+      internalID: -7019413697125583532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheetEstrellas_13
+      rect:
+        serializedVersion: 2
+        x: 3795
+        y: 0
+        width: 294
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47081f918b0c91dd0800000000000000
+      internalID: -2514767019967938444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheetEstrellas_14
+      rect:
+        serializedVersion: 2
+        x: 4087
+        y: 0
+        width: 293
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755e9f190378895b0800000000000000
+      internalID: -5361386713707322025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spriteSheetEstrellas_0: 3325088646576407506
+      spriteSheetEstrellas_1: 7362016573738926303
+      spriteSheetEstrellas_10: -5680795948970603415
+      spriteSheetEstrellas_11: 3118960510794724960
+      spriteSheetEstrellas_12: -7019413697125583532
+      spriteSheetEstrellas_13: -2514767019967938444
+      spriteSheetEstrellas_14: -5361386713707322025
+      spriteSheetEstrellas_2: 1343775720284727973
+      spriteSheetEstrellas_3: 744407180120844789
+      spriteSheetEstrellas_4: 5177228629552482168
+      spriteSheetEstrellas_5: -8162814633326760495
+      spriteSheetEstrellas_6: -2571001492520133623
+      spriteSheetEstrellas_7: -6011621676019963634
+      spriteSheetEstrellas_8: -2992477802542124662
+      spriteSheetEstrellas_9: -5675744651313500737
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
