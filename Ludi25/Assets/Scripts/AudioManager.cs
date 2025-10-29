@@ -22,7 +22,7 @@ public class AudioManager : MonoBehaviour
     private void Start()
     {
         musicSource.clip = background;
-        musicSource.volume = 0.25f;
+        musicSource.volume = 0.1f;
         musicSource.loop = true;
         musicSource.Play();
     }

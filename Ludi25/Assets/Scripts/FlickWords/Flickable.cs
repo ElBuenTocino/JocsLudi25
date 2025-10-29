@@ -15,10 +15,12 @@ public class Flickable : MonoBehaviour
     public SpawnAndMoveToCenter spawnAndMoveToCenter;
 
     private bool hasBeenFlicked = false; // prevent multiple flicks
+    AudioManager audioManager;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        audioManager = GameObject.FindGameObjectWithTag("Sound").GetComponent<AudioManager>();
     }
 
     private void OnMouseDown()
@@ -84,6 +86,7 @@ public class Flickable : MonoBehaviour
                 spawnAndMoveToCenter.correct = false;
                 Debug.Log("Incorrect Flick..");
             }
+            audioManager.PlaySFX(audioManager.woosh);
         }
         StartCoroutine(DestroyAfterDelay());
     }

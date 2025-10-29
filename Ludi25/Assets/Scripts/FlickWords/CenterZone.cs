@@ -11,6 +11,10 @@ public class CenterZone : MonoBehaviour
     private void Update()
     {
         scoreText.text = ($"{points}/{goal}");
+        if (points >= goal)
+        {
+            Win();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -28,10 +32,7 @@ public class CenterZone : MonoBehaviour
                 Debug.Log("Correct! Player left this alone.");
                 GetComponent<SpawnAndMoveToCenter>().correct = true;
                 points++;
-                if (points >= goal)
-                {
-                    Win();
-                }
+                
                 // TODO: apply reward
             }
 
